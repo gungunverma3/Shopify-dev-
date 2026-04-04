@@ -14,21 +14,23 @@ const floatingIcons = document.querySelectorAll('.floating-icon');
 // Project data
 const projectsData = {
   1: {
-    title: 'Parigyan Yogalaya Website',
+    title: 'Toy Website',
     description: 'Designed and developed a fully responsive yoga website for Parigyan Yogalaya, showcasing yoga programs, schedules, and contact details.',
     image: 'https://res.cloudinary.com/dmczrwazw/image/upload/v1753638244/cropped-cropped-final123-1_kuu7xs.webp',
     tech: ['HTML', 'CSS', 'WordPress', 'Elementor'],
-    demo: 'https://parigyanyogalaya.com/',
-    github: 'https://parigyanyogalaya.com/'
+    demo: 'https://indivyadesigns.in/',
+    github: 'https://indivyadesigns.in/'
   },
-  2: {
-    title: 'Hair Fall Prediction System',
-    description: ' A machine learning model that predicts hair fall risks based on genetic, medical, and environmental factors.',
-    image: 'https://res.cloudinary.com/dmczrwazw/image/upload/v1753638021/hairfall_gvf6bq.png',
+,
+    2: {
+    title: 'Toy website',
+    description: 'Built a predictive model that analyzes patient health data to assess the likelihood of diabetes.',
+    image: 'https://res.cloudinary.com/dmczrwazw/image/upload/v1753638019/diabetes_m5qyuj.webp',
     tech: ['Python', 'Pandas', 'Scikit-learn', 'Numpy'],
-    demo: 'https://github.com/ShadowJod/HairFallPrediction',
-    github: 'https://github.com/ShadowJod/HairFallPrediction'
+    demo: 'https://motoblox.com/',
+
   },
+ 
   3: {
     title: 'Diabetes Prediction System',
     description: 'Built a predictive model that analyzes patient health data to assess the likelihood of diabetes.',
@@ -37,23 +39,16 @@ const projectsData = {
     demo: 'https://github.com/ShadowJod/diabetes_prediction_system',
     github: 'https://github.com/ShadowJod/diabetes_prediction_system'
   },
-  4: {
-    title: 'Mini Dictionary',
-    description: 'Developed a dynamic dictionary web app that stores, manages, and fetches words with meanings.',
-    image: 'https://res.cloudinary.com/dmczrwazw/image/upload/v1753638019/minidictonary_me0hqy.png',
-    tech: ['HTML/CSS', 'JavaScript', 'Node.js', 'MySQL'],
-    demo: 'https://github.com/ShadowJod/minorProject',
-    github: 'https://github.com/ShadowJod/minorProject'
+    3: {
+    title: 'Diabetes Prediction System',
+    description: 'Built a predictive model that analyzes patient health data to assess the likelihood of diabetes.',
+    image: 'https://res.cloudinary.com/dmczrwazw/image/upload/v1753638019/diabetes_m5qyuj.webp',
+    tech: ['Python', 'Pandas', 'Scikit-learn', 'Numpy'],
+    demo: 'https://github.com/ShadowJod/diabetes_prediction_system',
+    github: 'https://github.com/ShadowJod/diabetes_prediction_system'
   },
-  5: {
-    title: 'CSS Gradient Generator',
-    description: ' Created a web tool that generates beautiful, randomized CSS gradients for developers and designers. ',
-    image: 'https://res.cloudinary.com/dmczrwazw/image/upload/v1753638020/cssGradient_ysfrw3.png',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    demo: 'https://github.com/ShadowJod/CSS-GradientGenerator',
-    github: 'https://github.com/ShadowJod/CSS-GradientGenerator'
-  }
-};
+ 
+
 
 // Initialize everything when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
