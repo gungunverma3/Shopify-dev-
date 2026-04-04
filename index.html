@@ -1,177 +1,613 @@
+
 <!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gungun Verma | Shopify Developer & Frontend Developer</title>
-
-    <meta name="description" content="Gungun Verma portfolio - Shopify Developer & Frontend Developer showcasing projects and skills.">
-    <meta name="author" content="Gungun Verma">
-
+    <title>Gungun verma - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
-
-<!-- NAV -->
-<nav class="navbar" id="navbar">
-    <div class="nav-container">
-        <div class="nav-logo"><span>Gv</span></div>
-
-        <ul class="nav-menu" id="nav-menu">
-            <li><a href="#home" class="nav-link active">Home</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-        </ul>
-
-        <div class="nav-toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </div>
-</nav>
-
-<!-- HERO -->
-<section id="home" class="hero">
-    <div class="hero-container">
-        <div class="hero-content">
-            <h1>
-                Hi, I'm <br>
-                <strong>Gungun Verma</strong><br>
-                <span>Shopify Developer | Frontend Developer</span>
-            </h1>
-
-            <p>I build modern, responsive and high-converting websites.</p>
-
-            <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary">View Work</a>
-                <a href="#connect" class="btn btn-secondary">Hire Me</a>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Gv</span>
             </div>
-
-            <div class="hero-social">
-                <a href="https://www.linkedin.com/in/gungun-verma-7258732a7/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
-    </div>
-</section>
+    </nav>
 
-<!-- PROJECTS -->
-<section id="projects" class="projects">
-    <div class="container">
-        <h2 class="section-title">Projects</h2>
-
-        <div class="projects-grid">
-
-            <!-- 1 -->
-            <div class="project-card" data-project="1"
-                data-demo="https://indivyadesigns.in/" data-github="">
-                <img src="pro1.png">
-                <h3>Indivya Designs</h3>
-                <p>Jewellery eCommerce website.</p>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
             </div>
-
-            <!-- 2 -->
-            <div class="project-card" data-project="2"
-                data-demo="https://motoblox.com/" data-github="">
-                <img src="pro3.png">
-                <h3>Motoblox</h3>
-                <p>Toy eCommerce website.</p>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Hi, I'm</span>
+                    <span class="name">Gungun Verma</span>
+                    <span class="role">Shopify Developer | Frontend Developer | Social Media</span>
+                </h1>
+                <p class="hero-description">
+                    I craft digital experiences that merge creativity with cutting-edge technology. Specializing in
+                    modern web development with a passion for clean code and innovative solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#skills" class="btn btn-secondary">Explore Skills</a>
+                </div>
+                <div class="hero-social">
+                    <!-- <a href="https://github.com/ShadowJod" class="social-link" target="_blank">
+              <i class="fab fa-github"></i> -->
+                    </a>
+                    <a href="https://www.linkedin.com/in/gungun-verma-7258732a7/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <!-- <a href="https://twitter.com" class="social-link" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a> -->
+                </div>
             </div>
-
-            <!-- 3 -->
-            <div class="project-card" data-project="3"
-                data-demo="" data-github="https://github.com/gungunverma3/diabetes_predicton_system">
-                <img src="https://res.cloudinary.com/dmczrwazw/image/upload/v1753638019/diabetes_m5qyuj.webp">
-                <h3>Diabetes Prediction</h3>
-                <p>ML based prediction system.</p>
+            <div class="hero-visual">
+                <div class="code-animation">
+                    <div class="code-lines">
+                        <div class="code-line" data-delay="0">const developer = {</div>
+                        <div class="code-line" data-delay="1"> name: 'Gungun Verma',</div>
+                        <div class="code-line" data-delay="2"> skills: ['C++', 'Python',C , HTML,CSS,Shopify],</div>
+                        <div class="code-line" data-delay="3"> passion: 'Innovation',</div>
+                        <div class="code-line" data-delay="4"> status: 'Available'</div>
+                        <div class="code-line" data-delay="5">};</div>
+                    </div>
+                    <div class="cursor-blink"></div>
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-icon" data-tech="react"><i class="fab fa-react"></i></div>
+                    <div class="floating-icon" data-tech="js"><i class="fab fa-js-square"></i></div>
+                    <div class="floating-icon" data-tech="node"><i class="fab fa-node-js"></i></div>
+                    <div class="floating-icon" data-tech="python"><i class="fab fa-python"></i></div>
+                    <div class="floating-icon" data-tech="git"><i class="fab fa-git-alt"></i></div>
+                    <div class="floating-icon" data-tech="docker"><i class="fab fa-docker"></i></div>
+                </div>
             </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
 
-            <!-- 4 -->
-            <div class="project-card" data-project="4"
-                data-demo="https://littlepeepers.in/" data-github="">
-                <img src="pro4.png">
-                <h3>Little Peepers</h3>
-                <p>Kids product website.</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Diploma holder in Computer Engineering with experience in data handling, documentation, and
+                        operational support. Skilled in backend assistance, reporting, and cross-team coordination.
+                        Interned at Sony, gaining exposure to IT operations and enterprise processes, with the ability
+                        to work efficiently in fast-paced environments. </p>
+                    <p>
+                        I’ve built several practical and user-focused projects, including a Diabetes Prediction System,
+                        a Movie Recommendation System, and a Python chatbot and some Frontend Projects + shopify
+                        projects. These projects
+                        reflect my interest in both problem-solving and clean.
+                        <!-- <p>
+                        When I'm not coding, you can find me exploring new technologies, contributing to
+                        open-source projects, or enjoying outdoor activities like hiking and photography.
+                    </p> -->
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Shopify Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1+</span>
+                            <span class="stat-label"> Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1qQEeM2y6wCGbsGx1mR-mKNZ-HixZWXdz/view?usp=sharing"
+                        class="btn btn-primary" id="download-resume">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+                <div class="about-visual">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="btn-close"></span>
+                                <span class="btn-minimize"></span>
+                                <span class="btn-maximize"></span>
+                            </div>
+                            <div class="terminal-title">~/developer-profile</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command">whoami</span>
+                            </div>
+                            <div class="terminal-output">Shopify Dev | Data Analytics Enthusiast</div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command">cat skills.txt</span>
+                            </div>
+                            <div class="terminal-output">
+                                Frontend: HTML , CSS<br>
+                                <!-- Backend: Node.js, Python, MySQL<br> -->
+                                Tools: Git
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command typing-animation">npm run build-future</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <!-- 5 -->
-            <div class="project-card" data-project="5"
-                data-demo="https://inklingnco.com/" data-github="">
-                <img src="pro6.png">
-                <h3>Inkling Art</h3>
-                <p>Art portfolio website.</p>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Web Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Shopify</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>WordPress</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>MySQL</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92%"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>C++</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>C </span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Canva</span>
+                        <!-- <span class="skill-tag">AWS</span> -->
+                        <span class="skill-tag">CapCut</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Numpy</span>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <!-- 6 -->
-            <div class="project-card" data-project="6"
-                data-demo="https://plantsden.com/" data-github="">
-                <img src="pro7.png">
-                <h3>PlantsDen</h3>
-                <p>Plant store website.</p>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="1">
+                    <div class="project-image">
+                        <img src="pro1.png" alt="Indivya designs" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://indivyadesigns.in/" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <!-- <a href="#" class="project-link">
+                    <i class="fab fa-github"></i> -->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>indivyadesigns Jewellery website</h3>
+                        <p> Designed and developed a fully responsive Jewellery for indivyadesigns.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Shopify</span>
+                            <!-- <span class="tech-tag">Elementor</span> -->
+                            <!-- <span class="tech-tag"></span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="2">
+                    <div class="project-image">
+                        <img src="pro3.png" alt="cake website" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i> -->
+                                </a>
+                                <a href="https://motoblox.com/" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Toy car website</h3>
+                        <p> Designed and developed a fully responsive Toy website for motoblox..</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML , CSS</span>
+                            <span class="tech-tag">Shopify</span>
+                            <!-- <span class="tech-tag">Scikit-learn</span> -->
+                            <!-- <span class="tech-tag">Numpy</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="3">
+                    <div class="project-image">
+                        <img src="https://res.cloudinary.com/dmczrwazw/image/upload/v1753638019/diabetes_m5qyuj.webp"
+                            alt="diabetes_prediction_system" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a> -->
+                                <a href="https://github.com/gungunverma3/diabetes_predicton_system"
+                                    class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Diabetes Prediction System</h3>
+                        <p> Built a predictive model that analyzes patient health data to assess the likelihood of
+                            diabetes.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Numpy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="4">
+                    <div class="project-image">
+                        <img src="pro4.png" alt="toy website" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a> -->
+                                <a href="https://littlepeepers.in/" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Toy website</h3>
+                        <p>Designed and developed a fully responsive Toy website for Littlepeepers.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Shopify</span>
+                            <!-- <span class="tech-tag">Node.js</span> -->
+                            <!-- <span class="tech-tag">MySQL</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="4">
+                    <div class="project-image">
+                        <img src="pro6.png" alt="toy website" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a> -->
+                                <a href="https://inklingnco.com/" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Art website</h3>
+                        <p>Designed and developed a fully responsive Toy website for inklingnco.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Shopify</span>
+                            <!-- <span class="tech-tag">Node.js</span> -->
+                            <!-- <span class="tech-tag">MySQL</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="4">
+                    <div class="project-image">
+                        <img src="pro7.png" alt="plant website" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a> -->
+                                <a href="https://plantsden.com/" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Plant website</h3>
+                        <p>Designed and developed a fully responsive Toy website for plants seller.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Shopify</span>
+                            <!-- <span class="tech-tag">Node.js</span> -->
+                            <!-- <span class="tech-tag">MySQL</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="4">
+                    <div class="project-image">
+                        <img src="pro8.png" alt="plant website" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a> -->
+                                <a href="https://plantsden.com/" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Snacks Website</h3>
+                        <p>Designed and developed a fully responsive Toy website for Snacks seller.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Shopify</span>
+                            <!-- <span class="tech-tag">Node.js</span> -->
+                            <!-- <span class="tech-tag">MySQL</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="4">
+                    <div class="project-image">
+                        <img src="pro10.png" alt="plant website" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a> -->
+                                <a href="https://www.toycollectorsindia.com/" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hotwheels Website</h3>
+                        <p>Designed and developed a fully responsive Toy website for hotwheels seller.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Shopify</span>
+                            <!-- <span class="tech-tag">Node.js</span> -->
+                            <!-- <span class="tech-tag">MySQL</span> -->
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="project-card" data-project="5">
+                    <div class="project-image">
+                        <img src="pro5.png" alt=".toy website" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a> -->
+                                <a href="https://crayonstocuriosity.com/" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>CSS Gradient Generator</h3>
+                        <p> Designed and developed a fully responsive Toy website for crayonstocuriosity.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Shopify</span>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
+        </div>
+    </section>
 
-            <!-- 7 -->
-            <div class="project-card" data-project="7"
-                data-demo="https://plantsden.com/" data-github="">
-                <img src="pro8.png">
-                <h3>Snacks Store</h3>
-                <p>Snack eCommerce website.</p>
+    <!-- Connect Section -->
+    <section id="connect" class="connect">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="connect-content">
+                <p class="connect-description">
+                    Ready to collaborate on something amazing? Let's build the future together.
+                </p>
+                <div class="connect-links">
+                    <a href="mailto:gvermarajput4@gmail.com" class="connect-card">
+                        <div class="connect-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>gvermarajput4@gmail.com</p>
+                        <div class="connect-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gungun-verma-7258732a7/" class="connect-card" target="_blank">
+                        <div class="connect-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Professional Network</p>
+                        <div class="connect-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                    <!-- <a href="https://github.com/ShadowJod" class="connect-card" target="_blank">
+                        <div class="connect-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Code Repository</p>
+                        <div class="connect-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a> -->
+                </div>
             </div>
+        </div>
+    </section>
 
-            <!-- 8 -->
-            <div class="project-card" data-project="8"
-                data-demo="https://www.toycollectorsindia.com/" data-github="">
-                <img src="pro10.png">
-                <h3>Hotwheels Store</h3>
-                <p>Collectibles website.</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Gungun Verma. All rights reserved.</p>
             </div>
+        </div>
+    </footer>
 
-            <!-- 9 -->
-            <div class="project-card" data-project="9"
-                data-demo="https://crayonstocuriosity.com/" data-github="">
-                <img src="pro5.png">
-                <h3>Crayons to Curiosity</h3>
-                <p>Kids learning website.</p>
+    <!-- Project Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Project Title</h3>
+                <button class="modal-close" id="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
             </div>
-
+            <div class="modal-body">
+                <img id="modal-image" src="" alt="Project Image" />
+                <div class="modal-info">
+                    <p id="modal-description">Project description goes here...</p>
+                    <div class="modal-tech" id="modal-tech">
+                        <!-- Tech tags will be inserted here -->
+                    </div>
+                    <div class="modal-links">
+                        <a href="#" class="btn btn-primary" id="modal-demo">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" class="btn btn-secondary" id="modal-github">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</section>
 
-<!-- CONTACT -->
-<section id="connect">
-    <div class="container">
-        <h2>Let's Connect</h2>
-
-        <a href="mailto:gvermarajput4@gmail.com">Email Me</a><br>
-        <a href="https://www.linkedin.com/in/gungun-verma-7258732a7/" target="_blank">LinkedIn</a>
-    </div>
-</section>
-
-<!-- MODAL -->
-<div class="modal" id="project-modal">
-    <div class="modal-content">
-        <h3 id="modal-title"></h3>
-        <img id="modal-image">
-
-        <p id="modal-description"></p>
-
-        <div id="modal-tech"></div>
-
-        <a id="modal-demo" target="_blank">Live Demo</a>
-        <a id="modal-github" target="_blank">GitHub</a>
-
-        <button id="modal-close">Close</button>
-    </div>
-</div>
-
-<script src="main.js"></script>
-
+    <script src="main.js"></script>
 </body>
+
 </html>
